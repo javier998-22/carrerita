@@ -104,3 +104,11 @@ h1{
 .container-page .two--three{
     margin-left: 10px;
 }
+/* cartas de pizzas */
+.card-body .text-2, .text-1{
+    font-weight: bold;
+    margin-top: 2px;
+}
+.text-1{
+    margin-bottom: 2px;
+}
