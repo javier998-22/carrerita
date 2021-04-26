@@ -1,0 +1,106 @@
+/* guardo variables */
+:root{ 
+    --black:black;
+    --roboto: 'Roboto', sans-serif;
+    --bone: #E3DAC9;
+}
+/* estilos para la barra de navegacion */
+nav{ 
+    background-color: #E3DAC9;
+    height: 60px;
+}
+.img-logo img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    margin-top: 5px;
+}
+ul{
+    list-style: none;
+}
+.divisor-ul-right ul{
+    margin-right: 30px;
+}
+.nav-item a{
+    margin-top: 8px;
+    margin-right: 15px;
+    font-family: var(--roboto);
+    color: var(--black);
+}
+a:hover{
+    color:red;
+}
+/* estilos para el titulo */
+.card{
+    width: 1250px;
+    margin-left: 325px;
+    margin-top: 25px;
+}
+h1{
+    text-align: center;
+    font-family: var(--roboto);
+    margin-top: 10px;
+}
+/* carrusel */
+.carousel-item img{
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-top: 30px;
+}
+/* parrafo de texto */
+.container-p{
+    border-radius: 15px black;
+}
+.container-p p{
+    text-align: center;
+    padding-right: 350px;
+    padding-left: 350px;
+}
+/* pie de pagina */
+.foot-page{
+    background-color: var(--bone);
+    margin-top: 100px;
+    height: 250px;
+}
+.foot-page div{
+    display: inline-flex;
+}
+.contact-container .o-list{
+    padding-top: 40px;
+}
+.o-list li{
+    list-style: none;
+}
+.title-contact, .title-address, .title-social, .title-page{
+    font-family: var(--roboto);
+    font-weight: bold;
+}
+.o-list li{
+    padding-top: 5px;
+}
+.address-container .o-list{
+    margin-left: 70px;
+    width: 275px;
+}
+.container-social img{
+    width:25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.container-social .o-list{
+    margin-left: 70px;
+}
+.container-social .two-three{
+    margin-left: 10px;
+}
+.container-page img{
+    width:45px;
+    height: 45px;
+}
+.container-page .o-list{
+    margin-left: 70px;
+}
+.container-page .two--three{
+    margin-left: 10px;
+}
